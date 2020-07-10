@@ -6,7 +6,8 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:import-splitnsort/recommended"
   ],
   "ignorePatterns": [
     "*.js",
@@ -18,7 +19,8 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "import-splitnsort"
   ],
   "reportUnusedDisableDirectives": true,
   "rules": {
