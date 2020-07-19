@@ -40,6 +40,7 @@ module.exports = {
     "@typescript-eslint/default-param-last": [
       "error"
     ],
+    "@typescript-eslint/explicit-function-return-type": ["error"],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/member-ordering": [
       "error",
