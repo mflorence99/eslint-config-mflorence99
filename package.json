@@ -9,8 +9,8 @@
   ],
   "name": "eslint-config-mflorence99",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4",
-    "@typescript-eslint/parser": "^4",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
     "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
     "eslint-plugin-import-splitnsort": "latest"
   },
