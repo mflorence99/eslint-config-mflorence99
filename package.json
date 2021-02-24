@@ -9,8 +9,8 @@
   ],
   "name": "eslint-config-mflorence99",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.6",
-    "@typescript-eslint/parser": "^3.6",
+    "@typescript-eslint/eslint-plugin": "^4",
+    "@typescript-eslint/parser": "^4",
     "eslint": "^5.0.0 || ^6.0.0 || ^7.0.0",
     "eslint-plugin-import-splitnsort": "latest"
   },
@@ -18,5 +18,5 @@
     "type": "git",
     "url": "https://github.com/mflorence99/eslint-config-mflorence99.git"
   },
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
