@@ -18,6 +18,7 @@ module.exports = {
   plugins: ["@typescript-eslint", "import-splitnsort"],
   reportUnusedDisableDirectives: true,
   rules: {
+    "@typescript-eslint/adjacent-overload-signatures": "off",
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/brace-style": "error",
     "@typescript-eslint/class-literal-property-style": ["error", "fields"],
