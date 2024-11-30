@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mflorence99",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "My personal .eslintrc config to share between projects",
   "repository": {
     "type": "git",

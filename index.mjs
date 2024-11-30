@@ -39,6 +39,10 @@ export default [{
         },
 
         parser: tsParser,
+        parserOptions: {
+            projectService: true,
+            tsconfigRootDir: import.meta.dirname
+        },
         sourceType: "module",
     },
 
