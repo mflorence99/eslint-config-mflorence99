@@ -39,7 +39,6 @@ export default [{
         },
 
         parser: tsParser,
-        ecmaVersion: 2019,
         sourceType: "module",
     },
 
@@ -47,11 +46,6 @@ export default [{
         "@typescript-eslint/adjacent-overload-signatures": "off",
         "@typescript-eslint/ban-types": "off",
         "@typescript-eslint/class-literal-property-style": ["error", "fields"],
-
-        "@typescript-eslint/comma-spacing": ["error", {
-            after: true,
-            before: false,
-        }],
 
         "@typescript-eslint/default-param-last": ["error"],
         "@typescript-eslint/explicit-function-return-type": ["error"],
