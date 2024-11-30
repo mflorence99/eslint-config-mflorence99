@@ -205,7 +205,6 @@ export default [{
 
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-var-requires": "off",
-        "@typescript-eslint/quotes": ["error", "single"],
         "@typescript-eslint/restrict-template-expressions": "off",
         "@typescript-eslint/semi": ["error", "always"],
 
