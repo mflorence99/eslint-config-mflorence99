@@ -172,32 +172,7 @@ export default tseslint.config(
         }
       ],
       '@typescript-eslint/method-signature-style': 'off',
-      '@typescript-eslint/naming-convention': [
-        'error',
-        {
-          format: ['camelCase'],
-          selector: 'default'
-        },
-        {
-          format: ['camelCase', 'UPPER_CASE'],
-          selector: 'variable'
-        },
-        {
-          format: ['camelCase'],
-          leadingUnderscore: 'allow',
-          selector: 'parameter'
-        },
-        {
-          format: ['camelCase'],
-          leadingUnderscore: 'allow',
-          modifiers: ['private'],
-          selector: 'memberLike'
-        },
-        {
-          format: ['PascalCase'],
-          selector: 'typeLike'
-        }
-      ],
+      '@typescript-eslint/naming-convention': 'off',
       '@typescript-eslint/no-duplicate-type-constituents': 'off',
       '@typescript-eslint/no-empty-function': 'off',
       '@typescript-eslint/no-empty-interface': 'off',
@@ -237,24 +212,12 @@ export default tseslint.config(
           ignoreStatic: true
         }
       ],
-      'brace-style': [
-        'error',
-        '1tbs',
-        {
-          allowSingleLine: true
-        }
-      ],
+      'brace-style': 'off',
       'comma-spacing': 'off',
       'default-param-last': 'off',
       'eqeqeq': ['error', 'smart'],
       'func-call-spacing': 'error',
-      'indent': [
-        'error',
-        2,
-        {
-          SwitchCase: 1
-        }
-      ],
+      'indent': 'off',
       'keyword-spacing': [
         'error',
         {
