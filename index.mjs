@@ -46,15 +46,6 @@ export default tseslint.config(
       },
 
       parser: tsParser,
-      parserOptions: {
-        project: [
-          'author/src/tsconfig.json',
-          'bin/tsconfig.json',
-          'proxy/src/tsconfig.json',
-          'viewer/src/tsconfig.json',
-          'worker/src/tsconfig.json'
-        ]
-      },
       sourceType: 'module'
     },
 
