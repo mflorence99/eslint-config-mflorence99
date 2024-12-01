@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mflorence99",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "My personal ESLint flat config to share between projects",
   "repository": {
     "type": "git",
