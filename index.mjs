@@ -197,12 +197,7 @@ export default tseslint.config(
       '@typescript-eslint/no-use-before-define': 'off',
       '@typescript-eslint/no-var-requires': 'off',
       '@typescript-eslint/restrict-template-expressions': 'off',
-      '@typescript-eslint/unbound-method': [
-        'error',
-        {
-          ignoreStatic: true
-        }
-      ],
+      '@typescript-eslint/unbound-method': 'off',
       'brace-style': 'off',
       'comma-spacing': 'off',
       'default-param-last': 'off',
