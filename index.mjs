@@ -18,17 +18,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
   baseDirectory: __dirname,
-  recommendedConfig: eslint.configs.recommendedTypeChecked,
+  recommendedConfig: eslint.configs.recommended,
   allConfig: eslint.configs.all
 });
 
 export default tseslint.config(
-  eslint.configs.recommended,
-  tseslint.configs.recommended,
   ...compat.extends(
     'plugin:import-splitnsort/recommended',
     'eslint-config-prettier'
   ),
+  tseslint.configs.recommendedTypeChecked,
   {
     ignores: ['**/*.mjs'],
 
