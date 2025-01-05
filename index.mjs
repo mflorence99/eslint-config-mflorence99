@@ -31,6 +31,8 @@ export default tseslint.config(
   {
     ignores: ['**/*.mjs'],
 
+    name: 'eslint-config-mflorence99',
+
     plugins: {
       'import': fixupPluginRules(importPlugin),
       '@typescript-eslint': tseslintPlugin,
